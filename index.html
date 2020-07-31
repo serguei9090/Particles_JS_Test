@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms and Button</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="description" content="Hello World!">
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="Style/style.css" />
+</head>
+
+<body>
+<!-- Nav bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" href="#">Forms and Button</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-control="navbarContent" aria-expand="false" aria-label='Toggle Navigation'>
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<!--Collapse Nav bar -->
+	<div class="collapse navbar-collapse" id="navbarContent">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item-active">
+				<a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+
+			</li>
+			<li class="nav-item">
+				<a class="nav-link pointer" data-toggle="modal" data-target="#infoModal">Info</a>
+			</li>
+            	<li class="nav-item">
+            		<a class="nav-link pointer" data-toggle="modal" data-target="#contactModal">Contact</a>
+            	</li>
+			</ul>
+	</div>
+	<!-- Modal Info -->
+        <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+        	<div class="modal-dialog" role="document">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<h5 class="modal-title" id="infoModalTitle">Welcome JavaScriptTests</h5>
+        				<button type="button" class="close" data-dismiss="modal" aria-label="close">
+        					<span aria-hidden="true">&times;</span>
+        				</button>
+        			</div>
+        			<div class="modal-body">
+        				This is a JavaScripts Example, Thanks!!
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+                <!-- Modal Contact -->
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+        	<div class="modal-dialog" role="document">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<h5 class="modal-title" id="contactModalTitle">Welcome JavaScriptTest</h5>
+        				<button type="button" class="close" data-dismiss="modal" aria-label="close">
+        					<span aria-hidden="true">&times;</span>
+        				</button>
+        			</div>
+        			<div class="modal-body">
+<p><strong>Email:</strong> <email>serguei246@gmail.com</email> <br></p>
+       			<p><strong>Phone:</strong> +53 52472074</p>
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+</nav>
+<div class="JS">
+	<p class="textTitle" id="text1">Test JavaScript Examples, Thanks!!</p>
+	<div class="select_option">
+		<button type="button" class="btn btn-primary js_button" id="prueba_1" onclick="docwrite();">Hello</button>
+		<button type="button" class="btn btn-success js_button" id="prueba_2" onclick="apendToDoc();">Append</button>
+		<button type="button" class="btn btn-info js_button" id="prueba_3" onclick="multiplyDoc();">Multiply</button>
+		<input id="input_multiply">
+		<button type="button" class="btn btn-warning js_button button_pr" id="prueba_4" >Rain</button>
+<!--		onclick="animates();"-->
+		<button type="button" class="btn btn-warning js_button button_1" id="prueba_5">Button</button>
+
+	</div>
+	<div class="container options_p">
+	<div class="row" id="text_p">
+		<p class="col-lg-4 prueba1" id="p_javascript"></p>
+		<p class="col-lg-3 prueba1" id="p_javascript2"></p>
+		<p class="col-lg-4 prueba1" id="p_javascript3"></p>
+		</div>
+		<canvas id="p_particle" width="100%" height="100%"></canvas>
+	</div>
+</div>
+	
+
+	<footer class="footer bg-dark text-center">
+    <a class="nav-link">Form and Button</a>
+    <a class="nav-link">Created by Serguei Castillo 2020</a>
+</footer>
+
+
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.sortable.js"></script>
+</html>

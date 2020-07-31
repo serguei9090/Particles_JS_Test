@@ -1,0 +1,45 @@
+footer {
+        text-align: center;
+        font-family: sans-serif;
+        width: 100%;
+        bottom: 0;
+        position:fixed;
+	color: #fff;
+    }
+
+
+#text1 {
+ border-bottom: solid;
+	border-bottom-color:blueviolet;
+	text-align: center;
+	background-color: beige;
+}
+
+.options_p {
+	margin-top: 2em;
+	margin-left: 1em;	
+}
+
+.select_option {
+text-align: center;
+}
+
+.js_button {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#input_multiply {
+	width: 2em;
+	height: 2em;
+}
+
+#p_particle {
+	width: 1920px;
+	height: 100%;
+	display: none;
+}
+#text_p > * {
+	margin: 3px;
+
+}
